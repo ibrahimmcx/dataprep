@@ -7,9 +7,9 @@ with open(os.path.join(os.path.dirname(__file__), "README.md"), encoding="utf-8"
 
 setup(
     name="ibrahim-dataprep",
-    version="0.1.1",
-    author="DataPrep AI Team",
-    author_email="contact@dataprep-ai.io",
+    version="0.1.2",
+    author="ibrahimmcx",
+    author_email="ibrahimmcx@github.com",
     description="Autonomous Data Science Assistant for Instant Data Preparation.",
     long_description=long_description,
     long_description_content_type="text/markdown",
