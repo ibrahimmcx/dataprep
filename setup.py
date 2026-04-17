@@ -7,7 +7,7 @@ with open(os.path.join(os.path.dirname(__file__), "README.md"), encoding="utf-8"
 
 setup(
     name="ibrahim-dataprep",
-    version="0.1.3",
+    version="0.2.0",
     author="ibrahimmcx",
     author_email="ibrahimmcx@github.com",
     description="Autonomous Data Science Assistant for Instant Data Preparation.",
@@ -23,6 +23,8 @@ setup(
         "rich",
         "python-dateutil",
         "openpyxl",
+        "matplotlib",
+        "seaborn",
     ],
     entry_points={
         "console_scripts": [

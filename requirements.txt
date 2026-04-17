@@ -5,3 +5,5 @@ typer
 rich
 python-dateutil
 openpyxl
+matplotlib
+seaborn

@@ -10,6 +10,7 @@ DataPrep AI is a CLI tool designed to transform raw, messy datasets into clean, 
 - **Intelligent Encoding**: Automated One-Hot and Label encoding based on feature cardinality.
 - **Goal-Oriented Prep**: Optimization for `prediction`, `classification`, or `analysis`.
 - **Date Parsing**: Automatically detects and transforms date-like strings to datetime objects.
+- **Deep Learning Support**: Interactively build neural networks with custom activations (ReLU, Sigmoid, etc.).
 - **Modern CLI**: Beautiful, colorized logs and progress indicators.
 
 ## 📦 Installation
@@ -37,6 +38,13 @@ Interact with your data using natural language:
 ```bash
 dataprep fix "fix the missing values in this file" your_data.csv
 ```
+
+### Deep Learning Builder
+Build a neural network model interactively:
+```bash
+dataprep dl build
+```
+This will prompt you for the number of layers, neurons per layer, and activation functions (ReLU, Sigmoid, Tanh, Softmax).
 
 ## 📄 License
 MIT License. See [LICENSE](LICENSE) for details.
