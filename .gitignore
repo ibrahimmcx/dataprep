@@ -4,4 +4,11 @@ dist/
 build/
 *.egg-info/
 .ipynb_checkpoints/
-
+scratch/
+*.csv
+*.xlsx
+*.json
+*.txt
+!requirements.txt
+!LICENSE
+!README.md
